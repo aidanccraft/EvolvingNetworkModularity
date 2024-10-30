@@ -1,0 +1,32 @@
+digraph MVGSimpleG2_3 {
+	rankdir=UD
+	node [fixedsize=true shape=circle width=.4]
+	0 [label=x]
+	1 [label=y]
+	2 [label=z]
+	3 [label=w]
+	16 [label=out]
+	9 -> 5
+	3 -> 5
+	13 -> 6
+	7 -> 6
+	10 -> 7
+	1 -> 7
+	14 -> 8
+	12 -> 8
+	2 -> 9
+	3 -> 9
+	1 -> 10
+	0 -> 10
+	5 -> 11
+	15 -> 11
+	11 -> 12
+	9 -> 12
+	10 -> 13
+	0 -> 13
+	10 -> 14
+	6 -> 14
+	9 -> 15
+	2 -> 15
+	8 -> 16
+}

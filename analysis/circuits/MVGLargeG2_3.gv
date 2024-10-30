@@ -1,0 +1,32 @@
+digraph MVGComplexG7_3 {
+	rankdir=UD
+	node [fixedsize=true shape=circle width=.4]
+	0 [label=x]
+	1 [label=y]
+	2 [label=z]
+	3 [label=w]
+	32 [label=out]
+	11 -> 5
+	8 -> 5
+	1 -> 8
+	0 -> 8
+	3 -> 9
+	2 -> 9
+	17 -> 11
+	27 -> 11
+	29 -> 12
+	25 -> 12
+	18 -> 16
+	5 -> 16
+	8 -> 17
+	1 -> 17
+	12 -> 18
+	5 -> 18
+	2 -> 25
+	9 -> 25
+	0 -> 27
+	8 -> 27
+	9 -> 29
+	3 -> 29
+	16 -> 32
+}
